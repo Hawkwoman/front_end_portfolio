@@ -3,8 +3,12 @@
 a {
     text-decoration: none;
 }
-ul {
-    
+h1 {
+    font-size: 6em;
+}
+
+p {
+    font-size: 2em;
 }
 /*--------CLASS STYLES-------*/
 
