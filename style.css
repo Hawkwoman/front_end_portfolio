@@ -1,19 +1,62 @@
 /*--------MAIN STYLES-------*/
 
 a {
+    display: inline-flex;
     text-decoration: none;
     color: #e7e7e7;
+    padding-right: 150px;
 }
 h1 {
-    font-size: 6em;
+    display: flex;
+    font-size: 4em;
+    justify-content: center;
+    /*3d text
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);*/
 }
 
 p {
-    font-size: 2em;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
 }
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
 /*--------CLASS STYLES-------*/
 
-.bg-image {
-    background-color: #0b411f;
+.bg-font {
     color: #e7e7e7;
+}
+
+/*test background image*/
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image */
+    background-image: url("img/37964488-wallpaper-city.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
