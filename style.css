@@ -1,6 +1,6 @@
 /*--------MAIN STYLES-------*/
 
-a {
+.linkNav{
     display: inline-flex;
     text-decoration: none;
     color: #e7e7e7;
@@ -34,6 +34,7 @@ p {
 ul {
     display: inline-flex;
     flex-direction: row;
+    
 }
 
 
@@ -62,13 +63,8 @@ body, html {
 }
 
 /*Scroll button styles*/
-
-/* 
-#section07 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;} 
-*/
-
-/*
-.demo a {
+  
+.demo .buttonLink {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -85,9 +81,9 @@ body, html {
 .demo a:hover {
   opacity: .5;
 }
-*/
 
-/*
+
+
 #section07 a {
   padding-top: 80px;
 }
@@ -143,4 +139,3 @@ body, html {
     opacity: 0;
   }
 }
-*/
