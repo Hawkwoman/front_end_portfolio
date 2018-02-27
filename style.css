@@ -51,7 +51,7 @@ body, html {
 
 .bg { 
     /* The image */
-    background-image: url("img/37964488-wallpaper-city.jpg");
+    background-image: url("img/nyc.jpg");
 
     /* Full height */
     height: 100%; 
@@ -62,7 +62,7 @@ body, html {
     background-size: cover;
 }
 
-/*Scroll button styles*/
+/*Scroll button styles: https://codepen.io/nxworld/pen/OyRrGy*/
   
 .demo .buttonLink {
   position: absolute;
