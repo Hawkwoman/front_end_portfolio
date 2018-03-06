@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 
-<!--This project wil be a simple design progile page with links to a personal    blog, projects, social media, and freelance work requests. I plan to incorporate Parallax style scrolling and use visually exciting animations rather than focus so much on content-->
+<!--This project wil be a simple design progile page with links to a personal blog, projects, social media, and freelance work requests. I plan to incorporate Parallax style scrolling and use visually exciting animations rather than focus so much on content within the first page. I will link to live hosted pages for content-->
 <!--IDEAS: 
     parallax scrolling
     animated links
 -->
 
 <html>
-    <div class="bg-font">
+    <!-- <div class="bg-font"> -->
     <head>
-        
+        <title>Kris Hale</title>
         <!--VS CODE auto-filled this section-->
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Kris Hale</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="main.js"></script>
         <script src="animate.js"></script>
     </head>
-    <body class="bg">
+    <body><!--class="bg"-->
         <header>
-        <!--cover image/video  -->
+            <!--cover image/video  -->
+            
+            <!--Navigation bar -->
+            <!--<ul class="">
+                <li><a class="linkNav" href="#">Home</a></li>
+                <li><a class="linkNav" href="#">Projects</a></li>
+                <li><a class="linkNav" href="#">Contact</a></li>
+                <li><a class="linkNav" href="#">Contact</a></li>
+            </ul> -->
+
         </header>
-        <!--Navigation bar -->
-        <ul class="">
-            <li><a class="linkNav" href="#">Home</a></li>
-            <li><a class="linkNav" href="#">Projects</a></li>
-            <li><a class="linkNav" href="#">Contact</a></li>
-            <li><a class="linkNav" href="#">Contact</a></li>
-        </ul>
-        <h1>I'm Kris Hale</h1>
-        <p>I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
-        <h1 class="heading2">Innovation is sparked by a single idea.</h1>
-        <p class="paragraph2">Grow a reputation of the same craftsmanship you pour into your small business with Beautiful and responsive Websites that display your vision</p>
+        <div class="parallax">
+            <h1>I'm Kris Hale</h1>
+            <p>I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
+            <h1 class="heading2">Innovation is sparked by a single idea.</h1>
+            <p class="paragraph2">Grow a reputation of the same craftsmanship you pour into your small business with Beautiful and responsive Websites that display your vision</p>
+        </div>
+
+        <div class="parallax2">
+            <h1>I'm Kris Hale</h1>
+            <p>I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
+            <h1 class="heading2">Innovation is sparked by a single idea.</h1>
+            <p class="paragraph2">Grow a reputation of the same craftsmanship you pour into your small business with Beautiful and responsive Websites that display your vision</p>
+        </div>
+
+        <div class="parallax3">
+            <h1>I'm Kris Hale</h1>
+            <p>I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
+            <h1 class="heading2">Innovation is sparked by a single idea.</h1>
+            <p class="paragraph2">Grow a reputation of the same craftsmanship you pour into your small business with Beautiful and responsive Websites that display your vision</p>
+        </div>
+
+    
         <!--scrolls down to a button--> 
         
-
-        <section id="section07" class="demo">
-            <a href="#section08" class="buttonLink"><span></span><span></span><span></span></a>
-
+        <div class="scrollButton">
+            <section id="section07" class="demo">
+                <a href="#section08" class="buttonLink"><span></span><span></span><span></span></a>
+        </div>
             
         <footer>
-        <!--social links-->
+            <!--social links-->
             <ul class="">
                 <li><a href="#" class="linkNav">Twitter</a></li>
                 <li><a href="#" class="linkNav">Facebook</a></li>
@@ -51,5 +71,5 @@
             </ul>
         </footer>
     </body>
-    </div>
+    <!-- </div> -->
 </html>

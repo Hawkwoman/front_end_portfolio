@@ -1,15 +1,15 @@
 /*--------MAIN STYLES-------*/
 
-.linkNav{
-    display: inline-flex;
+.linkNav {
+    display: ;
     text-decoration: none;
     color: #e7e7e7;
     padding-right: 150px;
 }
 h1 {
-    display: flex;
+    display: ;
     font-size: 4em;
-    justify-content: center;
+    /*justify-content: center;*/
     /*3d text
     text-shadow: 0 1px 0 #ccc,
     0 2px 0 #c9c9c9,
@@ -26,41 +26,41 @@ h1 {
 }
 
 p {
-    display: flex;
+    display: ;
     font-size: 22px;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 ul {
-    display: inline-flex;
-    flex-direction: row;
+    display: /*inline-flex*/;
+    flex-direction: /*row*/;
     
 }
 
 
 /*--------CLASS STYLES-------*/
 
-.bg-font {
+/*.bg-font {
     color: #e7e7e7;
-}
+}*/
 
-/*test background image*/
-body, html {
+/*test background image */
+  body, html {
     height: 100%;
 }
 
-.bg { 
-    /* The image */
-    background-image: url("img/nyc.jpg");
+/*.bg { 
+    /* The image 
+    background-image: url("../img/nyc.jpg");
 
-    /* Full height */
+    /* Full height 
     height: 100%; 
 
-    /* Center and scale the image */
+    /* Center and scale the image 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 /*Scroll button styles: https://codepen.io/nxworld/pen/OyRrGy*/
   
@@ -139,3 +139,59 @@ body, html {
     opacity: 0;
   }
 }
+
+/* parallax scroll */
+
+.parallax { 
+  /* The image used */
+  background-image: url("../img/street.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 { 
+  /* The image used */
+  /*background-image: url("img/street.jpg");*/
+  background-color: white;
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 { 
+  /* The image used */
+  background-image: url("../img/37808321-wallpaper-city.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+/*
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
+*/
