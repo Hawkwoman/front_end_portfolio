@@ -9,6 +9,7 @@
 h1 {
     display: ;
     font-size: 4em;
+    margin: 0;
     /*justify-content: center;*/
     /*3d text
     text-shadow: 0 1px 0 #ccc,
@@ -163,7 +164,8 @@ ul {
 .parallax2 { 
   /* The image used */
   /*background-image: url("img/street.jpg");*/
-  background-color: white;
+  background-color: whitesmoke;
+  
 
   /* Set a specific height */
   height: 50%;
@@ -178,6 +180,7 @@ ul {
 .parallax3 { 
   /* The image used */
   background-image: url("../img/37808321-wallpaper-city.jpg");
+  
 
   /* Set a specific height */
   height: 100%; 
@@ -195,6 +198,7 @@ ul {
 .parallax4 { 
   /* The image used */
   background-image: url("../img/37808321-wallpaper-city.jpg");
+  
 
   /* Set a specific height */
   height: 100%; 
@@ -212,6 +216,7 @@ ul {
 .parallax5 { 
   /* The image used */
   background-image: url("../img/stunning-long-exposure-of-incredible-scenery-and-the-night-sky_wallpprs.com_.jpg");
+  
 
   /* Set a specific height */
   height: 100%; 
