@@ -1,9 +1,9 @@
 /*--------MAIN STYLES-------*/
 
 .linkNav {
-    display: ;
+    display: inline-block;
     text-decoration: none;
-    color: #e7e7e7;
+    color: #4e4b4b;
     padding-right: 150px;
 }
 h1 {
@@ -47,6 +47,7 @@ ul {
 /*test background image */
   body, html {
     height: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 /*.bg { 
@@ -154,6 +155,9 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
 }
 
 .parallax2 { 
@@ -162,7 +166,7 @@ ul {
   background-color: white;
 
   /* Set a specific height */
-  height: 100%; 
+  height: 50%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -183,6 +187,43 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
+}
+
+.parallax4 { 
+  /* The image used */
+  background-image: url("../img/37808321-wallpaper-city.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
+}
+
+.parallax5 { 
+  /* The image used */
+  background-image: url("../img/stunning-long-exposure-of-incredible-scenery-and-the-night-sky_wallpprs.com_.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
 }
 
 
