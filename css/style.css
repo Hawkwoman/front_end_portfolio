@@ -149,10 +149,13 @@ ul {
   color: whitesmoke;
 }
 
+
+
+/*In the section .parallax5, we will be adding a button with a click event listener that toggles a bootstrap form completion modal. once the model clears, the goal is for the form to dissapear, and the remaining div displaying a grid-view feed of projects will expand and enlargen to fill the space and allow the user to browse completed projects. Those grid cards should enlargen for the user in response to some user interaction, and include a link where applicable to view the live project*/
+
 .parallax5 { 
   /* The image used */
   background-image: url("../img/stunning-long-exposure-of-incredible-scenery-and-the-night-sky_wallpprs.com_.jpg");
-  
 
   /* Set a specific height */
   height: 130%; 
@@ -163,6 +166,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .parallax6 { 
   /* The image used */
