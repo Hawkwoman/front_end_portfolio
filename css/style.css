@@ -41,11 +41,6 @@ h3 {
 text-align: center;  
 }
 
-ul {
-    display: /*inline-flex*/;
-    flex-direction: /*row*/;
-    
-}
 
 
 /*--------CLASS STYLES-------*/
@@ -55,6 +50,16 @@ ul {
   text-decoration: none;
   color: #4e4b4b;
   padding-right: 150px;
+}
+
+.introInfo {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.introPar {
+  text-align: center;
 }
 
 .paragraph2 {
@@ -196,9 +201,7 @@ ul {
 
 
 
-/*Text Styles*/
-  color: whitesmoke;
-}
+
 
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -210,3 +213,8 @@ ul {
   }
 }
 */
+
+
+/* Media Queries */
+
+/*@media width 660 shrink h1 heading and paragraph font size and remove border*/

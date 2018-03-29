@@ -9,7 +9,7 @@
 <html lang="en" >
     <!-- <div class="bg-font"> -->
     <head>
-        <title>Kris Hale</title>
+        <title>Kris Hale: Web Dev</title>
         <!-- viewport Compatibility -->
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,14 +17,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <!-- /viewport Compatibility -->
 
-        <!-- script links -->
-        <!-- bootstrap stylesheet -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="main.js"></script>
-        <script src="animate.js"></script>
-        <!-- /script links -->
+        <script src="modal.js"></script>
+       
     </head>
 
     <!-- main content -->
@@ -33,8 +29,11 @@
         </header>
 
         <div class="parallax">
-            <h1>I'm Kris Hale</h1>
-            <p>I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
+            
+            <div class="introInfo border border-white rounded">
+                <h1 class="firstIntro">I'm Kris Hale</h1>
+                <p class="introPar">I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
+            </div>
         </div>  <!-- end parallax1 div -->
 
         <div class="parallax2">
@@ -75,7 +74,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-sm-4">
-                        <form>
+                        <form id="formToggle">
                             <div class="form-group">
                                 <label>Business name input</label>
                                 <input type="business" class="form-control" id="formInput1" placeholder="My Awesome Small Business LLC">
@@ -110,7 +109,7 @@
                         </form>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                             Submit Request
                         </button>
                         
@@ -120,15 +119,16 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <button type="button" class="close hideForm" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>   <!-- /modal header -->
                                     <div class="modal-body">
-                                        <p>Your Freelance work request has been submitted. Please allow 5-10 business days for a response.</p>
+                                        <p>Your Freelance work request has been submitted.</p>
+                                        <p>Please allow 5-10 business days for a response.</p>
                                     </div>  <!-- /modal body -->
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>  <!-- /modal footer -->
                                 </div>  <!-- /modal content -->
                             </div>   <!-- /modal dialog -->
@@ -224,9 +224,9 @@
         <!-- footer -->
         <!-- /footer -->
     <!-- javascript, jquery and bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
     </body>
     <!-- </main content -->
 </html>
