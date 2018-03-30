@@ -301,7 +301,7 @@ ul li a i {
 
 /* Media Queries */
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1300px) {
   .parallax {
       background-attachment: scroll;
   }
