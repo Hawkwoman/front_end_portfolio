@@ -308,6 +308,13 @@ ul li a i {
 }
 
 
+@media only screen and (max-width : 321px) {
+  .mobilehide {
+    display:none; 
+  } 
+}
+
+
 
 
 
