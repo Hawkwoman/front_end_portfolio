@@ -308,10 +308,15 @@ ul li a i {
 }
 
 
-@media only screen and (max-width : 321px) {
-  .mobilehide {
-    display:none; 
-  } 
+@media screen and (max-width : 600px) {
+  .parallax
+  .parallax2
+  .parallax3
+  .parallax4
+  .parallax5
+  .parallax6  {
+    width: 100%
+  }  
 }
 
 
