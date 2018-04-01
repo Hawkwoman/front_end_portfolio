@@ -7,12 +7,12 @@
      
 
 
-    // $(window).on('load', function() { 
-    //     $('#myModal').on('hidden.bs.modal', function(){
-    //         $("#formToggle").attr('style', display = "none"); 
-    //     });
+     $(window).on('load', function() { 
+         $('#myModal').on('hidden.bs.modal', function(){
+             $("#formToggle").attr('style', "display:none"); 
+         });
 
-    // });
+     });
 
 
     // var form = document.querySelector('form');
