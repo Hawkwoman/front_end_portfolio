@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<!--This project wil be a simple design progile page with links to a personal blog, projects, social media, and freelance work reques. I plan to incorporate Parallax style scrolling and use visually exciting animations rather than focus so much on content within the first page. I will link to live hosted pages for content-->
+<!--IDEAS: 
+    parallax scrolling
+    animated links
+-->
+
+<html lang="en" >
+    <!-- <div class="bg-font"> -->
+    <head>
+        <title>Kris Hale: Web Dev</title>
+
+        <!-- viewport Compatibility -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- bootstrap stylesheet -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"            >
+        <script type="text/javascript" src="mobilealert.js"></script>
+        <script type="text/javascript" src="modal.js"></script> 
+        <script defer src="img/fontawesome-all.js"></script>
+    </head>
+
+    <!-- main content -->
+    <body>
+        <div class="parallax">
+            
+
+            <div class="introInfo border border-warning rounded">
+                <h1 class="firstIntro">I'm Kris Hale.</h1>
+                <p class="introPar">I'm a Freelance Front End Web Developer based in Louisville, Ky.</p>
+            </div>
+
+            <!-- <div class="animationContainer">
+                <div class="animation">
+                    <p>Scroll For fun with Parallax!</p>
+                </div>
+            </div> -->
+
+        </div>  <!-- end parallax1 div -->
+
+
+
+        <div class="parallax2">
+            <div class="description">
+                <h3 class="heading2">Sparking innovation</h1>
+                <p class="paragraph2">Grow  a  reputation  of  the  same  craftsmanship  you  pour  into  your  small  business  with  Beautiful  and  responsive  Websites  that  display  your  vision.  Spicy  jalapeno  bacon  ipsum  dolor  amet  chuck  dolore  ground  round  andouille,  tail  jowl  alcatra  ut  sed  ullamco  salami  elit  cupim  laboris.  Esse  ball  tip  short  ribs  pancetta  et.  Venison  aliqua  hamburger  kielbasa  beef,  enim  tempor  sausage  rump  nostrud.  Tri-tip  eu  short  loin  ut  in  dolore  aliquip  in  et  ham  hock  esse  labore  irure  voluptate.  Aliquip  jerky  tenderloin,  jowl  chicken  ex  minim  flank  et  duis.  Veniam  short ribs  ut,  drumstick  et  uis  bresaola  ullamco  lorem  tenderloin  pork  belly.  Commodo  est  shankle  deserunt  turducken  ut  ad,  t-bone  aute.  Porchetta  irure  aliquip  commodo  leberkas,  kielbasa  frankfurter  tri-tip  doner  hamburger. </p>
+            </div>    
+        </div>  <!-- end parallax2 div -->
+
+        <!-- another parallax photo break featuring social media follow buttons-->
+        <div class="parallax4">
+             
+        </div>
+        <!--  breaks in content -->
+        <div class="bar-break">
+            <p class="scrolltext">Scroll back and forth for a fun Parallax effect!</p>
+        </div>
+
+        <div class="parallax3">
+        </div>  <!-- end parallax3 div -->
+        
+        <!-- include breaks in content -->
+        <div class="bar-break">
+            <p class="scrolltext">Scroll back and forth for a fun Parallax effect!</p>
+        </div>
+
+
+        <div class="parallax5">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-4 formContainer">
+                        <form id="formToggle">
+                            <div class="form-group">
+                                <label class="formName">Business Name:</label>
+                                <input type="business" class="form-control" id="formInput1" placeholder="My Awesome Small Business LLC">
+                            </div>  <!-- /div form-->
+                    
+                            <div class="form-group">
+                                <label class="formName">Contact Name:</label>
+                                <input type="name" class="form-control" id="formInput2" placeholder="Steve Jobs, CEO">
+                            </div>  <!-- /div form-->
+                    
+                            <div class="form-group">
+                                <label class="formName" for="exampleFormControlInput1">Email Address:</label>
+                                <input type="email" class="form-control" id="formInput3" placeholder="name@example.com">
+                            </div>  <!-- /div form-->
+                    
+                            <div class="form-group">
+                                <label class="formName" for="formSelect1">What Kind of work are you Requesting?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>A custom website for a small business</option>
+                                    <option>A custom website for a Corporation</option>
+                                    <option>Front Facing Mobile App Design for Android</option>
+                                    <option>Front facing mobile app design for iOS</option>
+                                    <option>Something completely different!</option>
+                                </select>
+                            </div>  <!-- /div form-->
+                    
+                            <div class="form-group">
+                                <label class="formName" for="formTextArea1">Breifly describe your project below:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>  <!-- /div form-->
+                    
+                        </form>
+
+                        <!-- Button trigger modal -->
+                        <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                            Submit Request
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+                                        <button type="button" class="close hideForm" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>   <!-- /modal header -->
+                                    <div class="modal-body">
+                                        <p>Your Freelance work request has been submitted.</p>
+                                        <p>Please allow 5-10 business days for a response.</p>
+                                    </div>  <!-- /modal body -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>  <!-- /modal footer -->
+                                </div>  <!-- /modal content -->
+                            </div>   <!-- /modal dialog -->
+                        </div>   <!-- /modal fade -->
+                    </div>  <!-- /div col-->
+
+                    <div class="col-sm-8 cardContainer ">
+                        <div class="card-columns">
+                                <div class="card">
+                                <img class="card-img-top" src="img\placeimg_230_100_people.png" alt="cosmetology blog">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blog Sites for Freethinkers</h5>
+                                    <p class="card-text">This is a site built for a cosmetologist marketing her personal brand, artistic capabilities, and provoking insights.</p>
+                                </div>
+                                </div>
+                                <div class="card p-3">
+                                <blockquote class="blockquote mb-0 card-body">
+                                    <p>“Intuitive design is how we give the user new superpowers.”</p>
+                                    <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                            Jared Spool <cite title="Source Title">Web Site Usability: A Designer’s Guide</cite>
+                                    </small>
+                                    </footer>
+                                </blockquote>
+                                </div>
+                                <div class="card">
+                                <img class="card-img-top" src="img\placeimg_230_150_tech (1).jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">VisitMe</h5>
+                                    <p class="card-text">This project auto-updates recent check ins to a user program</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                                </div>
+                                <div class="card bg-warning text-white text-center p-3">
+                                <blockquote class="blockquote mb-0">
+                                    <p>“Websites promote you 24/7: No employee will do that.”</p>
+                                    <footer class="blockquote-footer">
+                                    <small>
+                                            Paul Cookson 
+                                    </small>
+                                    </footer>
+                                </blockquote>
+                                </div>
+                                <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">DataSploo</h5>
+                                    <p class="card-text">A Game!</p>
+                                    <p class="card-text"><small class="text-muted">High score: 15,597,000</small></p>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <img class="card-img" src="img\placeimg_230_150_tech (2).jpg" alt="Card image">
+                                </div>
+                                <div class="card p-3 text-right">
+                                <blockquote class="blockquote mb-0">
+                                    <p>“I strive for two things in design: simplicity and clarity. Great design is born of those two things.”</p>
+                                    <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                            Lindon Leader
+                                    </small>
+                                    </footer>
+                                </blockquote>
+                                </div>
+                                <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Small Business Tool</h5>
+                                    <p class="card-text">Small Businesses Remain relevant and intuitive with continual updates to e-commerce sites and tools</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                                </div>
+                        </div>  <!-- /div card-col-->
+                    </div>  <!-- /div col8 -->
+                </div>  <!-- /div row-->
+            </div> <!-- /div container-->
+        </div> <!-- end parallax5 div -->   
+
+
+
+
+        <!-- include breaks in content -->
+        <div class="bar-break">
+            <p class="scrolltext">Folllow Me And Connect Through Social Media Below</p>
+        </div>
+        
+        <div class="parallax6">
+            <div class="navs">
+                <ul>
+                    <li><a href="http://facebook.com/"><i class="fab fa-facebook fa-10x"></i></a></li>
+                    <li><a href="http://linkedin.com/"><i class="fab fa-linkedin fa-10x"></i></a></li>
+                    <li><a href="http://twitter.com/"><i class="fab fa-twitter fa-10x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- footer -->
+        <!-- /footer -->
+    <!-- javascript, jquery and bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <!-- </main content -->
+</html>

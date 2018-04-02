@@ -1,0 +1,331 @@
+/*--------MAIN STYLES-------*/
+
+/*test background image */
+body, html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+    text-align: center;
+    font: "Lato", sans-serif;
+      font-style: normal;
+      font-variant-ligatures: normal;
+      font-variant-caps: normal;
+      font-variant-numeric: normal;
+      font-variant-east-asian: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      font-size: 4em;
+      line-height: normal;
+      font-family: Lato, sans-serif;
+      color:whitesmoke;
+    margin: 0; 
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Lato, sans-serif;
+    color: #111;
+text-align: center;  
+}
+
+
+ul {
+  overflow: auto;
+  width: 700px;
+
+  /*center text */
+  position:absolute;
+  left:50%;
+  margin-left:-350px;
+  top:50%;
+  margin-top:-80px;
+  width:700px;
+  height:160px;
+}
+
+ul li {
+	list-style-type: none;
+  float: left;
+  margin-left: 60px;
+}
+
+ul li a i {
+	background: rgb(255, 217, 0);
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+  padding-top: 15%;
+}
+
+
+
+/*--------CLASS STYLES-------*/
+
+
+
+.introInfo {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  color: rgb(218, 199, 32);
+  font-size: 15px;
+
+
+  /*center text*/
+  position:absolute;
+  left:50%;
+  margin-left:-250px;
+  top:50%;
+  margin-top:px;
+  width:500px;
+  height:116px;
+
+}
+
+.introPar {
+  text-align: center;
+  font-size: 17px;
+}
+
+.paragraph2 {
+  color: #777;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.description {
+  position:absolute;
+  left:50%;
+  margin-left:-674.5px;
+  top:50%;
+  margin-top:-88px;
+  width:1349px;
+  height:176px;
+}
+
+.bar-break {
+  background-color: #282e34;
+  height: 20%;
+  position:relative;
+  width:1349px;
+  height:20%;  
+}
+
+.scrolltext {
+  color: rgb(252, 227, 0);
+  font-size: 1em;
+  position:absolute;
+  left:50%;
+  margin-left:-674.5px;
+  top:50%;
+  margin-top:-12px;
+  width:1349px;
+  height:24px;
+  padding-left: 500px;
+}
+
+.formContainer {
+  margin-top: 70px;
+}
+
+.cardContainer {
+  margin-top:40px;
+  overflow: auto;
+}
+
+.navs {
+ 
+}
+
+/* parallax scroll */
+
+.parallax { 
+  /* The image used */
+  background-image: url("../img/space/aurora.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
+
+  /*center text*/
+  position:relative;
+  width:1349px;
+  height:100%;
+
+}
+
+.parallax2 { 
+  background-color: whitesmoke;
+  
+
+  /* Set a specific height */
+  height: 40%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*center text */
+  position:relative;
+  width:1349px;
+  height:40%;
+}
+
+.parallax3 { 
+  /* The image used */
+  background-image: url("../img/space/gradient.jpg");
+  
+
+  /* Set a specific height */
+  height: 80%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
+}
+
+.parallax4 { 
+  /* The image used */
+  background-image: url("../img/space/halfmoon.jpg");
+  
+
+  /* Set a specific height */
+  height: 70%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Text Styles*/
+  color: whitesmoke;
+}
+
+
+
+/*In the section .parallax5, we will be adding a button with a click event listener that toggles a bootstrap form completion modal. once the model clears, the goal is for the form to dissapear, and the remaining div displaying a grid-view feed of projects will expand and enlargen to fill the space and allow the user to browse completed projects. Those grid cards should enlargen for the user in response to some user interaction, and include a link where applicable to view the live project*/
+
+.parallax5 { 
+  /* The image used */
+  background-image: url("../img/space/purplemountains.jpg");
+
+  /* Set a specific height */
+  height: 130%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formName {
+  color: rgb(252, 227, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.parallax6 { 
+  /* The image used */
+  background-image: url("../img/space/bluemilkyway.jpg");
+  
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*center text */
+  position:relative;
+  width:1349px;
+  height:100%;
+  
+}
+
+/*Scroll text animation for .parallax (non working)
+
+
+.animationContainer {
+  width: 800px;
+  height: 50px;
+  position: relative;
+  background: yellow;
+}
+
+.animation {
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  background: red;
+  Font-size: 30px;
+} */
+
+
+
+/* Media Queries */
+
+@media only screen and (max-device-width: 1300px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
+
+
+@media screen and (max-width : 600px) {
+  .parallax
+  .parallax2
+  .parallax3
+  .parallax4
+  .parallax5
+  .parallax6  {
+    width: 100%
+  }  
+}
+
+
+
+
+
+/*@media width 660 shrink h1 heading and paragraph font size and remove border*/
+
+
+
+
